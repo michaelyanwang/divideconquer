@@ -1,7 +1,7 @@
 # divideconquer
 Package for fast sparse Cox proportional hazards model used in Wang, Yan, Chuan Hong, Nathan Palmer, Qian Di, Joel Schwartz, Isaac Kohane, and Tianxi Cai. "A Fast Divide-and-Conquer Sparse Cox Regression." arXiv preprint arXiv:1804.00735 (2018).
 
-The dcalasso package is an updated package for the same method, with a more user-friendly wrapper.
+Please use the dcalasso package (michaelyanwang/dcalasso), which is an updated package for the same method, with a more user-friendly wrapper.
 
 ## Simulated dataset: Time-independent survival data
 ```
@@ -104,7 +104,7 @@ dat.mat0 = SIM.FUN.TVC(p.ti, p.tv, n.subject, cor, beta0.ti = NULL, beta0.tv = N
 dat.list = lapply(1:K,function(kk){dat.mat0[dat.mat0[,dim(dat.mat0)[2]] %in% ((1:n)+(kk-1)*n),-dim(dat.mat0)[2]]})
 ```
 
-## Analysis of simulated time-independent survival data
+## Analysis of simulated time-dependent survival data
 ```
 ### Round 1
 ptm = proc.time()
