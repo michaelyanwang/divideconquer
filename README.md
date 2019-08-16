@@ -2,6 +2,13 @@
 Package for fast sparse Cox proportional hazards model used in Wang, Yan, Chuan Hong, Nathan Palmer, Qian Di, Joel Schwartz, Isaac Kohane, and Tianxi Cai. "A Fast Divide-and-Conquer Sparse Cox Regression." arXiv preprint arXiv:1804.00735 (2018).
 
 Please use the dcalasso package (michaelyanwang/dcalasso), which is an updated package for the same method, with a more user-friendly wrapper.
+# Installation
+
+```
+require(devtools)
+install_github("michaelyanwang/divideconquer")
+require(dcalasso)
+```
 
 ## Simulated dataset: Time-independent survival data
 ```
