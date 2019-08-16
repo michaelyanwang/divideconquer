@@ -7,7 +7,7 @@ Please use the dcalasso package (michaelyanwang/dcalasso), which is an updated p
 ```
 require(devtools)
 install_github("michaelyanwang/divideconquer")
-require(dcalasso)
+require(divideconquer)
 ```
 
 ## Simulated dataset: Time-independent survival data
